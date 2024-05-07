@@ -1,0 +1,27 @@
+/* General */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+@font-face {
+  font-family: 'Epilogue';
+  src: url(./assets/fonts/Epilogue-VariableFont_wght.ttf);
+}
+/* Colors Variables */
+:root {
+  --Almost-White: hsl(0, 0%, 98%);
+  --Medium-Gray: hsl(0, 0%, 41%);
+  --Almost-Black: hsl(0, 0%, 8%);
+}
+html {
+  font-size: 1rem;
+  overflow-x: hidden;
+}
+/* Body */
+body {
+  font-family: 'Epilogue';
+}
+
