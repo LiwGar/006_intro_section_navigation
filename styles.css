@@ -4,6 +4,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
   scroll-behavior: smooth;
 }
 @font-face {
@@ -17,14 +18,32 @@
   --Almost-Black: hsl(0, 0%, 8%);
 }
 html {
-  font-size: 1rem;
   overflow-x: hidden;
 }
 /* Body */
 body {
+  background-color: var(--Almost-White);
+  color: var(--Almost-Black);
   font-family: 'Epilogue';
+  font-size: 1.125rem;
 }
-
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 1rem 1.5rem;
+  & .menu_Icon {
+    display: none;
+  }
+  & nav {
+    /* display: none; */
+  }
+}
+main {
+  & img {
+    width: 23.4rem;
+  }
+}
 
 
 
