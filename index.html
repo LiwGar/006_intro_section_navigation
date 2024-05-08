@@ -22,52 +22,53 @@
 
       <nav>
         <div class="container_Menu">
-          <div class="container_Box">
+          <div class="menu_Box">
 
-            <img src="./assets/images/icon-close-menu.svg" class="closeMenu_Icon" />
+            <div class="container_CloseMenu">
+              <img src="./assets/images/icon-close-menu.svg" class="closeMenu_Icon" />
+            </div>
 
-            <ul>
+            <ul class="content_Menu">
               <li>
-                Features
                 <button>
+                  Features
                   <img src="./assets/images/icon-arrow-down.svg" class="arrow_Down" />
                 </button>
-                <ul>
+                <ul class="content_SubMenu">
                   <li>
-                    <img src="./assets/images/icon-todo.svg" class="todo_Icon" />
-                    Todo List
+                    <img 
+                      src="./assets/images/icon-todo.svg" 
+                      class="todo_Icon" 
+                    />Todo List
                   </li>
                   <li>
                     <img
                       src="./assets/images/icon-calendar.svg"
                       class="calendar_Icon"
-                    />
-                    Calendar
+                    />Calendar
                   </li>
                   <li>
                     <img
                       src="./assets/images/icon-reminders.svg"
                       class="reminders_Icon"
-                    />
-                    Reminders
+                    />Reminders
                   </li>
                   <li>
                     <img
                       src="./assets/images/icon-planning.svg"
                       class="planning_Icon"
-                    />
-                    Planning
+                    />Planning
                   </li>
                 </ul>
               </li>
     
               <li>
-                Company
                 <button>
+                  Company
                   <img src="./assets/images/icon-arrow-down.svg" class="arrow_Down" />
                 </button>
 
-                <ul>
+                <ul class="content_SubMenu">
                   <li>History</li>
                   <li>Our Team</li>
                   <li>Blog</li>
@@ -79,9 +80,15 @@
               <li>About</li>
             </ul>
 
-            <button>Login</button>
+            <div class="button_Box">
+              <button class="button_Login">
+                Login
+              </button>
 
-            <button>Register</button>
+              <button  class="button_Register">
+                Register
+              </button>
+            </div>
 
           </div>
         </div>
