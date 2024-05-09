@@ -49,10 +49,10 @@ header {
   margin: 1rem 1rem 1.5rem;
   font-size: medium;
   & .menu_Icon {
-    display: none;
+    /* display: none; */
   }
   & nav {
-    /* display: none; */
+    display: none;
     & .container_Menu {
       position: absolute;
       width: 100%;
@@ -116,9 +116,54 @@ header {
   }
 }
 main {
-  & img {
-    width: 23.4rem;
+  text-align: center;
+  & .hero_Image {
+    width: 100%;
+    margin-bottom: 3rem;
   }
+  & h1 {
+    color: var(--Almost-Black);
+    font-size: 2.24rem;
+    font-weight: 800;
+    margin-bottom: 1.5rem;
+  }
+  & .home_Section p {
+    line-height: 1.8rem;
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 1.5rem;
+  }
+  & .button_Home {
+    justify-content: center;
+    width: 8.8rem;
+    height: 3rem;
+    margin: 0 auto;
+    background-color: var(--Almost-Black);
+    color: var(--Almost-White);
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: .8rem;
+  }
+  & .container_Logos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    & .data_Logo {
+      width: 5.2rem;
+    }
+    & .audio_Logo {
+      width: 3.4rem;
+    }
+    & .meet_Logo {
+      width: 4rem;
+    }
+    & .maker_Logo {
+      width: 4rem;
+    }
+  }
+
 }
 
 
