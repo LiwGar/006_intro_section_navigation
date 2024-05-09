@@ -50,65 +50,67 @@ header {
   font-size: medium;
   & .menu_Icon {
     /* display: none; */
+    cursor: pointer;
   }
   & nav {
     display: none;
-    & .container_Menu {
+    & .modal_Menu {
       position: absolute;
       width: 100%;
-      height: 48.75rem;
+      height: 100%;
       left: 0;
       top: 0;
       background-color: var(--Medium-Gray);
       font-weight: 500;
-      /* opacity: 0.7; */
-      & .menu_Box {
+      opacity: 0.7;
+    }
+    & .menu_Container {
+      position: absolute;
+      width: 15rem;
+      height: 100%;
+      top: 0;
+      right: 0;
+      background-color: var(--Almost-White);
+      padding: 1.25rem 1.5rem 1.25rem;
+      & .closeMenu_Container {
+        margin-bottom: 1.25rem;
+        text-align: end;
+        cursor: pointer;
+      }
+      & .button_Box {
+        display: grid;
         position: absolute;
-        width: 15rem;
-        height: 100%;
-        right: 0;
-        background-color: var(--Almost-White);
-        padding: 1.25rem 1.5rem 1.25rem;
-        & .container_CloseMenu {
-          margin-bottom: 1.25rem;
-          text-align: end;
-          cursor: pointer;
-        }
-        & .button_Box {
-          display: grid;
-          position: absolute;
+        justify-content: center;
+        bottom: 11rem;
+        gap: .1rem;
+        & .login_Button {
           justify-content: center;
-          bottom: 11rem;
-          gap: .1rem;
-          & .button_Login {
-            justify-content: center;
-            width: 12.2rem;
-            height: 2.6rem;
-            font-size: medium;
-          }
-          & .button_Register {
-            justify-content: center;
-            width: 12.2rem;
-            height: 2.6rem;
-            font-size: medium;
-            border: 2px solid var(--Medium-Gray);
-            border-radius: .8rem;
-          }
-
+          width: 12.2rem;
+          height: 2.6rem;
+          font-size: medium;
         }
-        & .content_Menu li {
-          margin-top: 1.38rem;
+        & .register_Button {
+          justify-content: center;
+          width: 12.2rem;
+          height: 2.6rem;
+          font-size: medium;
+          border: 2px solid var(--Medium-Gray);
+          border-radius: .8rem;
+        }
+
+      }
+      & .menu_Content li {
+        margin-top: 1.38rem;
+        margin-bottom: 1.38rem;
+        & .subMenu_Content li {
+          display: none;
           margin-bottom: 1.38rem;
-          & .content_SubMenu li {
-            display: none;
-            margin-bottom: 1.38rem;
-            padding: 0 1.6rem;
-            & img {
-              margin-right: .7rem;
-            }
-            & li {
-              cursor: pointer;
-            }
+          padding: 0 1.6rem;
+          & img {
+            margin-right: .7rem;
+          }
+          & li {
+            cursor: pointer;
           }
         }
       }
@@ -133,7 +135,7 @@ main {
     font-weight: 500;
     margin-bottom: 1.5rem;
   }
-  & .button_Home {
+  & .home_Button {
     justify-content: center;
     width: 8.8rem;
     height: 3rem;
@@ -143,8 +145,14 @@ main {
     font-size: 1rem;
     font-weight: 500;
     border-radius: .8rem;
+    &:hover {
+      background-color: var(--Almost-White);
+      color: var(--Almost-Black);
+      font-weight: 500;
+      border: 1px solid var(--Almost-Black);
+    }
   }
-  & .container_Logos {
+  & .logo_Container {
     display: flex;
     justify-content: space-between;
     align-items: center;
