@@ -102,8 +102,10 @@ header {
       & .menu_Content li {
         margin-top: 1.38rem;
         margin-bottom: 1.38rem;
-        & .subMenu_Content li {
+        & .subMenu_Content {
           display: none;
+        }
+        & .subMenu_Content li {
           margin-bottom: 1.38rem;
           padding: 0 1.6rem;
           & img {
@@ -124,16 +126,17 @@ main {
     margin-bottom: 3rem;
   }
   & h1 {
+    margin-bottom: 1.5rem;
     color: var(--Almost-Black);
     font-size: 2.24rem;
     font-weight: 800;
-    margin-bottom: 1.5rem;
   }
   & .home_Section p {
-    line-height: 1.8rem;
+    margin-bottom: 1.5rem;
     font-size: 1.1rem;
     font-weight: 500;
-    margin-bottom: 1.5rem;
+    line-height: 1.7rem;
+    
   }
   & .home_Button {
     justify-content: center;
@@ -156,8 +159,9 @@ main {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 1rem;
     margin-top: 2rem;
+    margin-bottom: 4.6rem;
+    padding: 1rem;
     & .data_Logo {
       width: 5.2rem;
     }
