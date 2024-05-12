@@ -255,7 +255,7 @@ main {
       & h1 {
         width: 27rem;
         font-size: 4rem;
-        margin-bottom: 3.938rem;
+        margin-bottom: 3rem;
       }
       & p {
         margin-bottom: 3.125rem;
@@ -283,6 +283,28 @@ main {
         }
       }
     }
+  }
+}
+
+@media (min-width: 1280px) {
+  header {
+    width: 74rem;
+    margin: 0 auto;
+    margin-top: 1.75rem;
+    padding: 0;
+    border: 1px solid blue;
+    & nav {
+      & .menu_Container {
+        width: auto;
+        margin: 0 0 0 2rem;
+        & .button_Box {
+          margin-right: -1.7rem;
+        }
+      }
+    }
+  }
+  main {
+    margin: 3.688rem 7.5rem 0 9.6rem;
   }
 }
 
