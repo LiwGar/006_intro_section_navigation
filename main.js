@@ -19,8 +19,7 @@ menuIcon.addEventListener('click', () => {
 
 arrowDown.addEventListener('click', () => {
   subMenuContent.style.display = 'block';
-  arrowDown.style.display = 'none'
-  
+  arrowDown.style.display = 'none';
   
 });
 
