@@ -251,9 +251,10 @@ main {
     gap: 4.6rem;
     & .home_Section {
       text-align: left;
-      margin-top: 9.8rem;
+      margin-top: 4.4rem;
       & h1 {
-        font-size: 2.625rem;
+        width: 27rem;
+        font-size: 4rem;
         margin-bottom: 3.938rem;
       }
       & p {
@@ -266,7 +267,20 @@ main {
         margin-bottom: 6.438rem;
       }
       & .logo_Container {
-        padding: 0;
+
+        padding: 0 3.5rem 0 0;
+        & .data_Logo {
+          width: 6.375rem;
+        }
+        & .audio_Logo {
+          width: 4.188rem;
+        }
+        & .meet_Logo {
+          width: 5.063rem;
+        }
+        & .maker_Logo {
+          width: 4.563rem;
+        }
       }
     }
   }
