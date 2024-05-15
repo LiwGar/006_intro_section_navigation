@@ -357,15 +357,30 @@ main {
     justify-content: space-between;
     padding: 0;
     & .hero_Image {
-      width: 27.125rem;
+      margin-top: 2rem;
+      width: 30.125rem;
     }
     & .home_Section {
+      & h1 {
+        width: 34rem;
+        font-size: 5rem;
+        margin-bottom: 2.6rem;
+      }
       & p {
         width: 26.25rem;
+        margin-bottom: 4rem;
+      }
+      & .home_Button {
+        margin-bottom: 6.8rem;
+      }
+      & .logo_Container {
+        margin-bottom: 0;
       }
     }
   }
 }
+
+
 
 @media (min-width: 1920px) {
   header {
