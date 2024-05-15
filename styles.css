@@ -81,7 +81,7 @@ header {
         display: grid;
         position: absolute;
         justify-content: center;
-        bottom: 11rem;
+        bottom: 2rem;
         gap: .1rem;
         & .login_Button {
           justify-content: center;
@@ -108,6 +108,9 @@ header {
       & .menu_Content li {
         margin-top: 1.38rem;
         margin-bottom: 1.38rem;
+        & .arrow_Up {
+          display: none;
+        }
         & .subMenu_Content {
           display: none;
         }
@@ -157,7 +160,7 @@ main {
     &:hover {
       background-color: var(--Almost-White);
       color: var(--Almost-Black);
-      font-weight: 500;
+      font-weight: 700;
       border: 1px solid var(--Almost-Black);
     }
   }
@@ -240,12 +243,39 @@ main {
               font-weight: 600;
             }
           }
-          & li {
-            &:hover {
-              font-weight: 600;
-            }
-            & img {
+          & #subMenu_Features {
+            position: absolute;
+            width: 11.3rem;
+            margin-top: 1rem;
+            margin-left: -5rem;
+            background-color: var(--Almost-White);
+            border-radius: .8rem;
+            box-shadow: 0 8px 30px hsl(0, 0%, 72%);
+
+            & li {
               margin-left: .5rem;
+              padding: 0 1.6rem 0 .8rem;
+              &:hover {
+                font-weight: 600;
+              }
+              & img {
+                margin-left: .5rem;
+              }
+            }
+          }
+          & #subMenu_Company {
+            position: absolute;
+            width: 8rem;
+            margin-top: 1rem;
+            margin-left: -.1rem;
+            background-color: var(--Almost-White);
+            
+            border-radius: .8rem;
+            box-shadow: 0 8px 30px hsl(0, 0%, 72%);
+            & li {
+              &:hover {
+                font-weight: 600;
+              }
             }
           }
         }
@@ -343,7 +373,3 @@ main {
     margin: 0 auto;
   }
 }
-
-
-    
-
