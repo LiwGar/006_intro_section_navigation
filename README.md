@@ -33,15 +33,15 @@ Users should be able to:
 ### Screenshot
 
 <p text-align="center">
-  <img src="./assets/screenShots/Macbook-Air-localhost.png" width="500" height="350">
+  <img src="./assets/screenShots/Macbook-Air-localhost.png" width="500" height="330">
 </p>
 <p text-align="center">
-  <img src="./assets/screenShots/Macbook-Air-localhost (1).png" width="500" height="350">
+  <img src="./assets/screenShots/Macbook-Air-localhost (1).png" width="500" height="330">
 </p>
 <p text-align="center">
-  <img src="./assets/screenShots/iPhone-13-PRO-localhost.png" width="180" height="350">
-  <img src="./assets/screenShots/iPhone-13-PRO-localhost (1).png" width="180" height="350">
-  <img src="./assets/screenShots/iPhone-13-PRO-localhost (2).png" width="180" height="350">
+  <img src="./assets/screenShots/iPhone-13-PRO-localhost.png" width="175" height="350">
+  <img src="./assets/screenShots/iPhone-13-PRO-localhost (1).png" width="175" height="350">
+  <img src="./assets/screenShots/iPhone-13-PRO-localhost (2).png" width="175" height="350">
 </p>
 
 ## My process
@@ -76,7 +76,7 @@ The objective is:
 
 I've just completed a front-end coding challenge from @frontendmentor! 🎉
 
-You can see my solution here: https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-using-css-flexbox-oz5FfNw721
+You can see my solution here: https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-using-css-flexbox-ceH24MCQhx
 
 Any suggestions on how I can improve are welcome!
 
