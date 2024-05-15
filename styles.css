@@ -238,6 +238,10 @@ main {
           align-items: center;
           height: 100%;
           gap: 2.2rem;
+          & li:nth-last-child(-n+2):hover {
+            cursor: pointer;
+            font-weight: 600;
+          }
           & button {
             &:hover {
               font-weight: 600;
