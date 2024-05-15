@@ -74,4 +74,9 @@ The objective is:
 
 ## Solution
 
+I've just completed a front-end coding challenge from @frontendmentor! 🎉
+
+You can see my solution here: https://www.frontendmentor.io/solutions/intro-section-with-dropdown-navigation-using-css-flexbox-oz5FfNw721
+
+Any suggestions on how I can improve are welcome!
 
